@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Béisbol en Acción</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>⚾ Béisbol en Acción</h1>
+        <nav>
+            <a href="#noticias">Noticias</a>
+            <a href="#calendario">Calendario</a>
+            <a href="#estadisticas">Estadísticas</a>
+            <a href="#historia">Historia</a>
+        </nav>
+    </header>
+
+    <section id="noticias">
+        <h2>Últimas Noticias</h2>
+        <article>
+            <h3>Gran victoria del equipo local</h3>
+            <p>En un partido emocionante, el equipo local logró una remontada histórica en la última entrada...</p>
+        </article>
+        <article>
+            <h3>Jugador estrella batea récord</h3>
+            <p>El bateador logró conectar su cuadrangular número 40 de la temporada...</p>
+        </article>
+    </section>
+
+    <section id="calendario">
+        <h2>Calendario de Partidos</h2>
+        <ul>
+            <li>15 Ago - Tigres vs Leones</li>
+            <li>18 Ago - Aguilas vs Toros</li>
+            <li>21 Ago - Marineros vs Piratas</li>
+        </ul>
+    </section>
+
+    <section id="estadisticas">
+        <h2>Estadísticas</h2>
+        <table>
+            <tr>
+                <th>Jugador</th>
+                <th>HR</th>
+                <th>AVG</th>
+            </tr>
+            <tr>
+                <td>Juan Pérez</td>
+                <td>35</td>
+                <td>.320</td>
+            </tr>
+            <tr>
+                <td>Carlos Gómez</td>
+                <td>28</td>
+                <td>.298</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="historia">
+        <h2>Historia del Béisbol</h2>
+        <p>El béisbol nació en el siglo XIX en Estados Unidos y se ha convertido en uno de los deportes más populares del mundo...</p>
+    </section>
+
+    <footer>
+        <p>© 2025 Béisbol en Acción | Creado con pasión por el béisbol</p>
+    </footer>
+</body>
+</html>
